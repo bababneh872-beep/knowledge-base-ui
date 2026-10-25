@@ -1,0 +1,32 @@
+@import './app/app.css';
+
+:root {
+	color-scheme: light;
+	--ink: #1d2d24;
+	--muted: #768379;
+	--line: #e3e9e4;
+	--panel: #ffffff;
+	--sidebar: #15231e;
+	--teal: #2f6b50;
+	--teal-dark: #234c37;
+	--lime: #d4e998;
+	--lime-dark: #78934d;
+	--coral: #bb6c53;
+	font-family: 'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+body {
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0;
+	background: #f4f7f3;
+}
+
+button, input { font-family: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--coral); outline-offset: 3px; }
